@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: cpp-python-runner
+    name: execution-server
     env: node
     plan: free
     buildCommand: "npm install"
